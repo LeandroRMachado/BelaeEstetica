@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Roboto:wght@400;700&family=Sarala:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Chewy', cursive;
+  letter-spacing: 1px;
+}
+body {
+  font-size: 100%;
+  background: rgb(241, 237, 238);
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 400;
+  font-size: 18px;
+}
+.image1 {
+  width: 6rem;
+}
+.image2 {
+  width: 17rem;
+}
+.image3 {
+  width: 10rem;
+}
+h1,
+h2,
+h3 {
+  color: rgb(235, 93, 116);
+}
+a {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+}
+.header-menu {
+  display: flex;
+  gap: 32px;
+}
+
+main {
+  background: url(images/background.svg);
+}
+.rodapé {
+  font-family: 'Sarala', sans-serif;
+  color: rgb(130, 149, 185);
+  padding-left: 50rem;
+  font-size: 3rem;
+  margin-bottom: 5rem;
+  border: 0rem;
+  display: flex;
+  padding-bottom: 5rem;
+  border-top: 0.4px solid rgb(153, 56, 104);
+}
+.content {
+  border-top: 0.4px solid rgb(153, 56, 104);
+  margin-bottom: 48px;
+}
+.content-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.content-main-wrote {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.content-main-wrote-title {
+  font-weight: 400;
+  font-size: 40px;
+}
+.content-main-wrote-title2 {
+  font-weight: 400;
+  font-size: 40px;
+}
+.content-main-wrote-buttom {
+  background-color: beige;
+  width: 6rem;
+  box-shadow: 4px 5px 4px rgb(209, 154, 163);
+  border: none;
+  height: 2rem;
+  border-radius: 20px;
+  transition: 0.2s ease-out;
+}
+.content-main-wrote-buttom:hover {
+  background: rgb(218, 148, 148);
+  cursor: pointer;
+}
+.about-me {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  text-align: center;
+  padding-left: 55rem;
+  margin: none;
+}
+.content-secondy {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  align-items: center;
+}
+.content-secondy-title {
+  border-top: 0.4px solid rgb(153, 56, 104);
+  padding-top: 15px;
+  margin: none;
+}
